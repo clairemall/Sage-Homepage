@@ -92,7 +92,7 @@ header {
 	margin: 40px auto 0 auto;
 }
 
-.show a {
+.show a, .contact a{
 	width: 250px;
 	height: 50px;
 	background: #fff;
@@ -190,5 +190,74 @@ p {
 article img {
 	width: 100%;
 }
+
+section footer {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+footer a {
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #f63c3c;
+	border-bottom: #f63c3c 3px solid;
+	letter-spacing: 2px;
+	padding-bottom: 2px;
+}
+
+.contact {
+	text-align: center;
+	background: #f63c3c;
+	padding-bottom: 55px;
+}
+
+.contact h2 {
+	color: #fff;
+}
+
+.contact p {
+	margin-top: -40px;
+}
+
+.contact a {
+	color: #685157;
+	margin-top: 20px;
+}
+
+.social h2 {
+	text-align: left;
+}
+
+.social li {
+	width: 20%;
+	height: 195px;
+	display: inline-block;
+	background: black;
+	margin-bottom: 20px;
+}
+
+.social a {
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+
+.social p {
+	color: #555;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
 
 
