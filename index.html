@@ -3,61 +3,67 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SAGE Homepage</title>
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Teko:400,300' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet'>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<img src="img/logo.svg" alt="SAGE logo">
-		<nav>
-			<ul>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Get in Touch</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<ul>
-				<li>
-					<h1>We build websites and apps that people love</h1>
-					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
-				</li>
-				<li>
-					<h1>We build websites and apps that people love</h1>
-					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
-				</li>
-				<li>
-					<h1>We build websites and apps that people love</h1>
-					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
-				</li>
-				<li>
-					<h1>We build websites and apps that people love</h1>
-					<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-					<a href="#">Explore More</a>
-				</li>
-			</ul>
+	<header class="group">
+		<div class="container">
+			<img src="img/logo.svg" alt="SAGE logo">
 			<nav>
 				<ul>
-					<li class="active"></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Get in Touch</a></li>
 				</ul>
 			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+			<div class="container2">
+				<ul>
+					<li class="show">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</li>
+					<li class="hide">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#">Explore More</a>
+					</li>
+					<li class="hide">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#">Explore More</a>
+					</li>
+					<li class="hide">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#">Explore More</a>
+					</li>
+				</ul>
+				<nav class="carousel">
+					<ul>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</nav>
+			</div>
 		</section>
-		<section>
+		<section class="container3">
 			<h2>My projects</h2>
-			<article>
-				<a href="#">
+			<article class="left">
+				<a href="#">						
 					<figure>
 						<img src="img/tesla.jpg" alt="tesla photo">
 						<figcaption class="hover">
@@ -67,10 +73,10 @@
 						</figcaption>
 					</figure>
 					<h3>Model S Catalog</h3>
-					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-				</a>
+					<p class="projects"> Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</a>				
 			</article>
-			<article>
+			<article class="right">
 				<a href="#">
 					<figure>
 						<img src="img/discovery.jpg" alt="discovery channel photo">
@@ -81,13 +87,13 @@
 						</figcaption>
 					</figure>
 					<h3>Discovery Channel iPad</h3>
-					<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
+					<p class="projects">The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
 				</a>
 			</article>
-			<article>
+			<article class="left">
 				<a href="#">
 					<figure>
-						<img src="img/stuhrling.jpg" alt="stuhrling photo">
+						<img src="img/stuhrling.jpg" alt="stuhrling photo">			
 						<figcaption class="hover">
 							<p>Year 2014</p>
 							<p>Client: Personal Project</p>
@@ -95,10 +101,10 @@
 						</figcaption>				
 					</figure>
 					<h3>Stuhrling</h3>
-					<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
+					<p class="projects">Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
 				</a>
 			</article>
-			<article>
+			<article class="right">
 				<a href="#">
 					<figure>
 						<img src="img/infinity.jpg" alt="infinity spaces photo">
@@ -109,7 +115,7 @@
 						</figcaption>	
 					</figure>
 					<h3>Infinity Spaces</h3>
-					<p>Infinity &#x221e; is an abstract concept describing something without any limit and is relevant in a number of fields</p>
+					<p class="projects">Infinity &#x221e; is an abstract concept describing something without any limit and is relevant in a number of fields</p>
 				</a>
 			</article>
 			<a href="#">Show more projects</a>

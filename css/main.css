@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+}
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+.active a {
+	color: #f63c3c;
+	border-bottom: #f63c3c 3px solid;
+	padding-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+header {
+	background: #fff;
+	height: 70px;
+}
+
+.hero {
+	background: url(../img/background.jpg) center center no-repeat;
+	height: 1012px;
+}
+
+.container {
+	width: 70%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container img {
+	float: left;
+}
+
+.container nav {
+	margin-top: 30px;
+	float: right;
+}
+
+.container nav li {
+	display: inline-block;
+}
+
+.container nav a {
+	margin-left: 40px;
+	padding-top: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+.container2 {
+	width: 70%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container3 {
+	width: 100%;
+	max-width: 1880px;
+	margin: 0 auto;
+}
+
+
+.show p {
+	font-size: 22px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	max-width: 770px;
+	margin: 40px auto 0 auto;
+}
+
+.show a {
+	width: 250px;
+	height: 50px;
+	background: #fff;
+	display: block;
+	margin: 50px auto 0 auto;
+	text-align: center;
+	padding: 15px;
+	text-transform: uppercase;
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+}
+
+.button {
+	color: #000;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-size: 120px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 315px;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 54px 0;
+}
+
+h3 {
+	font-family: 'Teko', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+}
+
+p {
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: 0.5px;
+}
+
+.carousel ul {
+	text-align: center;
+}
+
+.carousel li {
+	width: 40px;
+	height: 6px;
+	background-color: rgba(255, 255, 255, 0.22);
+	display: inline-block;
+	margin: 232px 5px 0 5px;
+}
+
+.carousel .active {
+	background-color: #fff;
+}
+
+
+.left {
+	float: left;
+	max-width: 50%;
+	padding-left: 20px;
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+
+.right {
+	float: right;
+	max-width: 50%;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+
+.projects {
+	text-align: center;
+	margin-bottom: 35px;
+	margin-top: 20px;
+	color: #555555;
+	font-family: 'Titillium Web';
+	font-weight: 300;
+	font-size: 14px;
+}
+
+article img {
+	width: 100%;
+}
+
+
